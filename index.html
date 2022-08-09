@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="temp">
+        <div class="temp.photo"><img src="c2.jpg" alt="Celsius" /></div>
+        <div class="temp-input">
+          <label for="tempC">Celsius</label><br /><br />
+          <input type="number" name="tempC" id="celsius" />
+        </div>
+      </div>
+      <div class="button">
+        <input type="button" value="Convert" id="button" />
+      </div>
+      <div class="temp">
+        <div class="temp.photo"><img src="f1.jpg" alt="Fahrenheit" /></div>
+        <div class="temp-input">
+          <label for="tempF">Fahrenheit</label><br /><br />
+          <input type="number" name="tempF" id="fahrenheit" />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
